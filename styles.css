@@ -1,3 +1,33 @@
-nav {
-  background-image: url("./assets/Rectangle.png");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  grid-area: name;
+}
+
+.about {
+  grid-area: about;
+}
+
+.project {
+  grid-area: project;
+}
+
+.resume {
+  grid-area: resume;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+body nav ul {
+  display: grid;
+  grid-template-areas: "name name name name name name about project resume contact";
+  list-style-type: none;
+}
+body nav ul li {
+  font-family: "Bebas Neue";
 }
