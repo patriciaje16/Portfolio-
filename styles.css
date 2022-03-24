@@ -23,6 +23,26 @@
   grid-area: contact;
 }
 
+#topHeading {
+  grid-area: topH;
+}
+
+#middleHeading {
+  grid-area: middleH;
+}
+
+#bottomHeading {
+  grid-area: bottomH;
+}
+
+.me {
+  grid-area: me;
+}
+
+body nav {
+  padding: 2vh;
+  height: 10vh;
+}
 body nav ul {
   display: grid;
   grid-template-areas: "name name name name name name about project resume contact";
@@ -30,4 +50,30 @@ body nav ul {
 }
 body nav ul li {
   font-family: "Bebas Neue";
+  font-size: 3vh;
+}
+body header {
+  display: grid;
+  grid-template-areas: "topH topH me me" "middleH middleH me me" "bottomH bottomH me me" "bottomH bottomH me me";
+}
+body header .me {
+  height: 50vh;
+  padding-right: 10vh;
+}
+body header .headings {
+  display: flex;
+  align-items: center;
+  padding: 5vh;
+  padding-right: 20vh;
+  padding-left: 5vh;
+}
+body header #topHeading {
+  font-family: "Source Sans 3";
+}
+body header #middleHeading {
+  font-family: "Source Sans 3";
+}
+body header #bottomHeading {
+  font-family: "Bebas Neue";
+  padding-bottom: 30vh;
 }

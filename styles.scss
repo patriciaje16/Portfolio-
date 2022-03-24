@@ -24,9 +24,27 @@
   grid-area: contact;
 }
 
+#topHeading {
+  grid-area: topH;
+}
+
+#middleHeading {
+  grid-area: middleH;
+}
+
+#bottomHeading {
+  grid-area: bottomH;
+}
+
+.me {
+  grid-area: me;
+}
+
 body {
 
   nav {
+    padding: 2vh;
+    height: 10vh;
 
     ul {
       display: grid;
@@ -35,9 +53,58 @@ body {
       list-style-type: none;
 
       li {
-        font-family: 'Bebas Neue'
+        font-family: 'Bebas Neue';
+        font-size: 3vh;
       }
 
     }
   }
-}
+
+  header {
+    display: grid;
+    grid-template-areas:
+    "topH topH me me"
+    "middleH middleH me me"
+    "bottomH bottomH me me"
+    "bottomH bottomH me me"
+    ;
+
+    .me {
+      height: 50vh;
+      padding-right: 10vh;
+    
+    }
+
+    .headings {
+      display: flex;
+      align-items: center;
+      padding: 5vh;
+      padding-right: 20vh;
+      padding-left: 5vh;
+    
+
+      }
+
+      #topHeading {
+        font-family: 'Source Sans 3';
+      }
+
+      #middleHeading {
+          font-family: 'Source Sans 3';
+        
+      }
+
+      #bottomHeading {
+        font-family: 'Bebas Neue';
+        padding-bottom: 30vh;
+      }
+
+
+    }
+
+    
+
+    
+  }
+
+
