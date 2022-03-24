@@ -40,7 +40,7 @@
 }
 
 body nav {
-  padding: 2vh;
+  padding: 3vh;
   height: 10vh;
 }
 body nav ul {
@@ -57,15 +57,18 @@ body header {
   grid-template-areas: "topH topH me me" "middleH middleH me me" "bottomH bottomH me me" "bottomH bottomH me me";
 }
 body header .me {
-  height: 50vh;
-  padding-right: 10vh;
+  height: 60vh;
+  padding-top: 5vh;
+  padding-right: 30vh;
 }
 body header .headings {
+  width: 50%;
   display: flex;
   align-items: center;
   padding: 5vh;
   padding-right: 20vh;
-  padding-left: 5vh;
+  padding-left: 10vh;
+  text-align: center;
 }
 body header #topHeading {
   font-family: "Source Sans 3";
@@ -75,5 +78,72 @@ body header #middleHeading {
 }
 body header #bottomHeading {
   font-family: "Bebas Neue";
+  font-size: 10vh;
+  padding-bottom: 20vh;
+}
+body .list1 {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+  padding-right: 10vh;
+  padding-bottom: 10vh;
+}
+body .list1 .iphonepics > img {
+  height: 30vh;
+}
+body .aboutme {
+  text-align: center;
+  font-family: "Bebas Neue";
+  padding-top: 4vh;
+  font-size: 6vh;
+}
+body .p4 {
+  text-align: center;
+  font-family: "Source Sans 3";
+  padding: 5vh;
   padding-bottom: 30vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+body .resume2 {
+  text-align: center;
+  font-family: "Bebas Neue";
+  padding-top: 4vh;
+  font-size: 6vh;
+}
+body .p5 {
+  text-align: center;
+  font-family: "Source Sans 3";
+  padding: 5vh;
+  padding-bottom: 30vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+body .final {
+  text-align: center;
+  padding: 10vh;
+  padding-bottom: 30vh;
+}
+body .final .contact2 {
+  text-align: center;
+  font-family: "Bebas Neue";
+  padding-top: 4vh;
+  font-size: 6vh;
+}
+body .final .list2 {
+  padding-top: 10vh;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+body .final .list2 .Email > img {
+  height: 15vh;
+}
+body .final .list2 .Linked > img {
+  height: 16.5vh;
+}
+body .final .list2 .Git > img {
+  height: 20vh;
 }

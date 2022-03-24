@@ -43,7 +43,7 @@
 body {
 
   nav {
-    padding: 2vh;
+    padding: 3vh;
     height: 10vh;
 
     ul {
@@ -63,48 +63,145 @@ body {
   header {
     display: grid;
     grid-template-areas:
-    "topH topH me me"
-    "middleH middleH me me"
-    "bottomH bottomH me me"
-    "bottomH bottomH me me"
+      "topH topH me me"
+      "middleH middleH me me"
+      "bottomH bottomH me me"
+      "bottomH bottomH me me"
     ;
 
     .me {
-      height: 50vh;
-      padding-right: 10vh;
-    
+      height: 60vh;
+      padding-top: 5vh;
+      padding-right: 30vh;
+
     }
 
     .headings {
+      width: 50%;
       display: flex;
       align-items: center;
       padding: 5vh;
       padding-right: 20vh;
-      padding-left: 5vh;
-    
-
-      }
-
-      #topHeading {
-        font-family: 'Source Sans 3';
-      }
-
-      #middleHeading {
-          font-family: 'Source Sans 3';
-        
-      }
-
-      #bottomHeading {
-        font-family: 'Bebas Neue';
-        padding-bottom: 30vh;
-      }
+      padding-left: 10vh;
+      text-align: center;
 
 
     }
 
+    #topHeading {
+      font-family: 'Source Sans 3';
+      
+    }
+
+    #middleHeading {
+      font-family: 'Source Sans 3';
+
+    }
+
+    #bottomHeading {
+      font-family: 'Bebas Neue';
+      font-size: 10vh;
     
+      padding-bottom: 20vh;
+    }
+
+
+  }
+
+  .list1 {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    padding-right: 10vh;
+    padding-bottom: 10vh;
+
+
+    .iphonepics > img {
+      height: 30vh
+    }
+
 
     
   }
 
+  .aboutme {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    padding-top: 4vh;
+    font-size: 6vh;
 
+  }
+
+ .p4 {
+      text-align: center;
+      font-family: 'Source Sans 3';
+      padding: 5vh;
+      padding-bottom: 30vh;
+      padding-left: 10vh;
+      padding-right: 10vh;
+ 
+    }
+
+    .resume2 {
+      text-align: center;
+    font-family: 'Bebas Neue';
+    padding-top: 4vh;
+    font-size: 6vh;
+
+    }
+
+    .p5 {
+      text-align: center;
+      font-family: 'Source Sans 3';
+      padding: 5vh;
+      padding-bottom: 30vh;
+      padding-left: 10vh;
+      padding-right: 10vh;
+    }
+
+
+    .final {
+      text-align: center;
+      padding: 10vh;
+      padding-bottom: 30vh;
+
+      .contact2 {
+        text-align: center;
+    font-family: 'Bebas Neue';
+    padding-top: 4vh;
+    font-size: 6vh;
+      }
+
+      .list2 {
+        padding-top: 10vh;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .Email > img {
+          height: 15vh
+        }
+
+        .Linked > img {
+          height: 16.5vh;
+        }
+
+        .Git > img {
+          height: 20vh;
+    
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+}
