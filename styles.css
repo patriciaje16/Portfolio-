@@ -40,7 +40,13 @@
 }
 
 body nav {
-  padding: 3vh;
+  background-image: url(./assets/Rectangle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 120px;
+  padding: 5vh;
   height: 10vh;
 }
 body nav ul {
@@ -81,45 +87,60 @@ body header #bottomHeading {
   font-size: 10vh;
   padding-bottom: 20vh;
 }
-body .list1 {
+body main {
+  background-image: url(./assets/headerframe.png);
+  background-size: cover;
+  min-height: 400px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+body main .list1 {
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   text-align: center;
-  padding-right: 10vh;
   padding-bottom: 10vh;
+  font-family: "Source sans 3";
 }
-body .list1 .iphonepics > img {
+body main .list1 .iphonepics > img {
   height: 30vh;
 }
 body .aboutme {
   text-align: center;
   font-family: "Bebas Neue";
-  padding-top: 4vh;
+  padding-top: 20vh;
   font-size: 6vh;
 }
 body .p4 {
+  background-image: url(./assets/pinkframe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vh;
   text-align: center;
   font-family: "Source Sans 3";
   padding: 5vh;
   padding-bottom: 30vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
 }
 body .resume2 {
   text-align: center;
   font-family: "Bebas Neue";
-  padding-top: 4vh;
+  padding-top: 20vh;
   font-size: 6vh;
 }
 body .p5 {
+  background-image: url(./assets/bottomframe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vh;
   text-align: center;
   font-family: "Source Sans 3";
   padding: 5vh;
   padding-bottom: 30vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
 }
 body .final {
   text-align: center;
