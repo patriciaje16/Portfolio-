@@ -157,18 +157,16 @@ body {
   }
 
  .p4 {
-  background-image: url(./assets/pinkframe.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100vh;
+  background: linear-gradient(90deg, rgb(228, 133, 117) 0%, rgba(230, 148, 142, 0.986) 24%, rgb(230, 193, 171) 100%);
+  width: 80%;
+  margin: 20px auto;
+ 
   
       text-align: center;
       font-family: 'Source Sans 3';
-      padding: 5vh;
-      padding-bottom: 30vh;
-      padding-left: 30vh;
-      padding-right: 30vh;
- 
+      padding:20px;
+      border-radius: 50px;
+    
     }
 
     .resume2 {
@@ -182,17 +180,15 @@ body {
     }
 
     .p5 {
-      background-image: url(./assets/bottomframe.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100vh;
+      background: linear-gradient(90deg, rgb(81, 106, 129) 0%, rgb(134, 140, 151) 24%, rgb(137, 139, 163) 100%);
+  width: 80%;
+  margin: 20px auto;
       
           text-align: center;
           font-family: 'Source Sans 3';
-          padding: 10vh;
-          padding-bottom: 30vh;
-          padding-left: 30vh;
-          padding-right: 30vh;
+          padding:20px;
+      border-radius: 50px;
+          
     }
 
 
