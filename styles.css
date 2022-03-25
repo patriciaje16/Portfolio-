@@ -57,6 +57,7 @@ body nav ul {
 body nav ul li {
   font-family: "Bebas Neue";
   font-size: 3vh;
+  color: #53616E;
 }
 body header {
   display: grid;
@@ -78,13 +79,16 @@ body header .headings {
 }
 body header #topHeading {
   font-family: "Source Sans 3";
+  color: #53616E;
 }
 body header #middleHeading {
   font-family: "Source Sans 3";
+  color: #404C58;
 }
 body header #bottomHeading {
   font-family: "Bebas Neue";
   font-size: 10vh;
+  color: #53616E;
   padding-bottom: 20vh;
 }
 body main {
@@ -102,6 +106,8 @@ body main .list1 {
   text-align: center;
   padding-bottom: 10vh;
   font-family: "Source sans 3";
+  padding-right: 5vh;
+  padding-top: 5vh;
 }
 body main .list1 .iphonepics > img {
   height: 30vh;
@@ -111,6 +117,8 @@ body .aboutme {
   font-family: "Bebas Neue";
   padding-top: 20vh;
   font-size: 6vh;
+  padding-bottom: 5vh;
+  color: #404C58;
 }
 body .p4 {
   background-image: url(./assets/pinkframe.png);
@@ -121,14 +129,16 @@ body .p4 {
   font-family: "Source Sans 3";
   padding: 5vh;
   padding-bottom: 30vh;
-  padding-left: 20vh;
-  padding-right: 20vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
 }
 body .resume2 {
   text-align: center;
   font-family: "Bebas Neue";
   padding-top: 20vh;
   font-size: 6vh;
+  padding-bottom: 5vh;
+  color: #404C58;
 }
 body .p5 {
   background-image: url(./assets/bottomframe.png);
@@ -137,10 +147,10 @@ body .p5 {
   background-size: 100vh;
   text-align: center;
   font-family: "Source Sans 3";
-  padding: 5vh;
+  padding: 10vh;
   padding-bottom: 30vh;
-  padding-left: 20vh;
-  padding-right: 20vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
 }
 body .final {
   text-align: center;
@@ -152,6 +162,7 @@ body .final .contact2 {
   font-family: "Bebas Neue";
   padding-top: 4vh;
   font-size: 6vh;
+  color: #404C58;
 }
 body .final .list2 {
   padding-top: 10vh;
@@ -160,11 +171,17 @@ body .final .list2 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 body .final .list2 .Email > img {
-  height: 15vh;
+  height: 80px;
 }
 body .final .list2 .Linked > img {
-  height: 16.5vh;
+  height: 90px;
 }
 body .final .list2 .Git > img {
-  height: 20vh;
+  height: 100px;
+}
+body .final .list2 .links {
+  font-family: "Source Sans 3";
+  color: #404C58;
+  font-size: medium;
+  font-weight: bolder;
 }

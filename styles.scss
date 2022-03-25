@@ -61,6 +61,7 @@ body {
       li {
         font-family: 'Bebas Neue';
         font-size: 3vh;
+        color: #53616E;
       }
 
     }
@@ -96,18 +97,20 @@ body {
 
     #topHeading {
       font-family: 'Source Sans 3';
+      color:#53616E
       
     }
 
     #middleHeading {
       font-family: 'Source Sans 3';
+      color: #404C58;
 
     }
 
     #bottomHeading {
       font-family: 'Bebas Neue';
       font-size: 10vh;
-    
+      color:#53616E;
       padding-bottom: 20vh;
     }
 
@@ -129,7 +132,10 @@ body {
     text-align: center;
     padding-bottom: 10vh;
     font-family: 'Source sans 3';
+    padding-right: 5vh;
+    padding-top: 5vh;
 
+  
 
     .iphonepics > img {
       height: 30vh
@@ -145,6 +151,8 @@ body {
     font-family: 'Bebas Neue';
     padding-top: 20vh;
     font-size: 6vh;
+    padding-bottom: 5vh;
+    color:#404C58;
 
   }
 
@@ -158,8 +166,8 @@ body {
       font-family: 'Source Sans 3';
       padding: 5vh;
       padding-bottom: 30vh;
-      padding-left: 20vh;
-      padding-right: 20vh;
+      padding-left: 30vh;
+      padding-right: 30vh;
  
     }
 
@@ -168,6 +176,8 @@ body {
     font-family: 'Bebas Neue';
     padding-top: 20vh;
     font-size: 6vh;
+    padding-bottom: 5vh;
+    color:#404C58;
 
     }
 
@@ -179,10 +189,10 @@ body {
       
           text-align: center;
           font-family: 'Source Sans 3';
-          padding: 5vh;
+          padding: 10vh;
           padding-bottom: 30vh;
-          padding-left: 20vh;
-          padding-right: 20vh;
+          padding-left: 30vh;
+          padding-right: 30vh;
     }
 
 
@@ -196,6 +206,7 @@ body {
     font-family: 'Bebas Neue';
     padding-top: 4vh;
     font-size: 6vh;
+    color:#404C58;
       }
 
       .list2 {
@@ -205,16 +216,23 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
 
         .Email > img {
-          height: 15vh
+          height: 80px;
         }
 
         .Linked > img {
-          height: 16.5vh;
+          height: 90px;
         }
 
         .Git > img {
-          height: 20vh;
+          height: 100px;
     
+        }
+
+        .links {
+          font-family: 'Source Sans 3';
+          color: #404C58;
+          font-size: medium;
+          font-weight: bolder;
         }
       }
     }
@@ -222,10 +240,5 @@ body {
 
 
 
-
-
-
-
-
-
 }
+
