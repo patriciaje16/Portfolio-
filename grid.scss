@@ -1,0 +1,36 @@
+
+.name {
+  grid-area: name;
+}
+
+.about {
+  grid-area: about;
+}
+
+.project {
+  grid-area: project;
+}
+
+.resume {
+  grid-area: resume;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+#topHeading {
+  grid-area: topH;
+}
+
+#middleHeading {
+  grid-area: middleH;
+}
+
+#bottomHeading {
+  grid-area: bottomH;
+}
+
+.me {
+  grid-area: me;
+}

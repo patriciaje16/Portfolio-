@@ -1,0 +1,27 @@
+body {
+
+  nav {
+    background-image: url(./assets/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 120px;
+    padding: 5vh;
+    height: 12vh;
+
+    ul {
+      display: grid;
+      grid-template-areas:
+        "name name name name name name about project resume contact";
+      list-style-type: none;
+
+      li {
+        font-family: 'Bebas Neue';
+        font-size: 3vh;
+        color: #53616E;
+      }
+
+    }
+  }
+}

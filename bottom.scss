@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+
+  .aboutme {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    padding-top: 20vh;
+    font-size: 6vh;
+    padding-bottom: 5vh;
+    color:#404C58;
+
+  }
+
+ .p4 {
+  background: linear-gradient(90deg, rgb(228, 133, 117) 0%, rgba(230, 148, 142, 0.986) 24%, rgb(230, 193, 171) 100%);
+  width: 80%;
+  margin: 20px auto;
+ 
+  
+      text-align: center;
+      font-family: 'Source Sans 3';
+      padding:20px;
+      border-radius: 50px;
+    
+    }
+
+    .resume2 {
+      text-align: center;
+    font-family: 'Bebas Neue';
+    padding-top: 20vh;
+    font-size: 6vh;
+    padding-bottom: 5vh;
+    color:#404C58;
+
+    }
+
+    .p5 {
+      background: linear-gradient(90deg, rgb(81, 106, 129) 0%, rgb(134, 140, 151) 24%, rgb(137, 139, 163) 100%);
+  width: 80%;
+  margin: 20px auto;
+      
+          text-align: center;
+          font-family: 'Source Sans 3';
+          padding:20px;
+      border-radius: 50px;
+          
+    }
+
+
+    .final {
+      text-align: center;
+      padding: 10vh;
+      padding-bottom: 30vh;
+
+      .contact2 {
+        text-align: center;
+    font-family: 'Bebas Neue';
+    padding-top: 4vh;
+    font-size: 6vh;
+    color:#404C58;
+      }
+
+      .list2 {
+        padding-top: 10vh;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .Email > img {
+          height: 80px;
+        }
+
+        .Linked > img {
+          height: 90px;
+        }
+
+        .Git > img {
+          height: 100px;
+    
+        }
+
+        .links {
+          font-family: 'Source Sans 3';
+          color: #404C58;
+          font-size: medium;
+          font-weight: bolder;
+        }
+      }
+    }
+
+
+
+
+}
+

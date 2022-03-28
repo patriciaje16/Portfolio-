@@ -1,0 +1,65 @@
+body {
+
+  header {
+    display: grid;
+    grid-template-areas:
+      "topH topH me me"
+      "middleH middleH me me"
+      "bottomH bottomH me me"
+      "bottomH bottomH me me"
+    ;
+
+    .me {
+      height: 60vh;
+      padding-top: 5vh;
+      padding-right: 30vh;
+
+    }
+
+    .headings {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      padding: 5vh;
+      padding-right: 20vh;
+      padding-left: 10vh;
+      text-align: center;
+
+
+    }
+
+    #topHeading {
+      font-family: 'Source Sans 3';
+      color:#53616E
+      
+    }
+
+    #middleHeading {
+      font-family: 'Source Sans 3';
+      color: #404C58;
+
+    }
+
+    #bottomHeading {
+      font-family: 'Bebas Neue';
+      font-size: 10vh;
+      color:#53616E;
+      padding-bottom: 20vh;
+    }
+
+
+  }
+  @media only screen and (max-width: 550px) {
+    header {
+    grid-template-areas:
+      "me me"
+      "topH topH"
+      "middleH middleH"
+      "bottomH bottomH"
+      ;
+     .me {padding-left: 11vh;}
+    
+      
+    }
+  }
+}
