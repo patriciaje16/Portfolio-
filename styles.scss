@@ -50,7 +50,7 @@ body {
     position: relative;
     min-height: 120px;
     padding: 5vh;
-    height: 10vh;
+    height: 12vh;
 
     ul {
       display: grid;
@@ -115,6 +115,19 @@ body {
     }
 
 
+  }
+  @media only screen and (max-width: 550px) {
+    header {
+    grid-template-areas:
+      "me me"
+      "topH topH"
+      "middleH middleH"
+      "bottomH bottomH"
+      ;
+     .me {padding-left: 11vh;}
+    
+      
+    }
   }
 
   main {

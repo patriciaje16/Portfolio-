@@ -47,7 +47,7 @@ body nav {
   position: relative;
   min-height: 120px;
   padding: 5vh;
-  height: 10vh;
+  height: 12vh;
 }
 body nav ul {
   display: grid;
@@ -90,6 +90,14 @@ body header #bottomHeading {
   font-size: 10vh;
   color: #53616E;
   padding-bottom: 20vh;
+}
+@media only screen and (max-width: 550px) {
+  body header {
+    grid-template-areas: "me me" "topH topH" "middleH middleH" "bottomH bottomH";
+  }
+  body header .me {
+    padding-left: 11vh;
+  }
 }
 body main {
   background-image: url(./assets/headerframe.png);
