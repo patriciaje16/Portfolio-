@@ -1,1 +1,1 @@
-This is my portfolio where I will be showscasing my projects to come! Watch this space. Here is a link to my Figma wireframe https://www.figma.com/file/43wBzSbcMrbuGHtaZPuHfl/Portfolio?node-id=0%3A1
+Hi I am Patricia and have recently started my journey to becoming a software developer. This is my first project which is a portfolio. Here I will be showscasing my projects to come! Watch this space. Here is a link to my Figma wireframe https://www.figma.com/file/43wBzSbcMrbuGHtaZPuHfl/Portfolio?node-id=0%3A1
